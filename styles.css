@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 360px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
