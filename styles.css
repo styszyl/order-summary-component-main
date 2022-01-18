@@ -4,22 +4,37 @@
 }
 
 img {
-    position: relative;
+    position: static;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin: 0;
+
 }
 
 body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1px;
     background-color: hsl(225, 100%, 94%);
 }
+
+h1 {
+    margin: 30px auto;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0 15% 20px 15%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    width: 360px;
-    height: 600px;
-    border: 2px solid black;
+    max-width: 45%;
+    max-height: auto;
     border-radius: 20px;
     background-color: white;
 }
