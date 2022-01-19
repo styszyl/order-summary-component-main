@@ -39,3 +39,18 @@ h2 {
     border-radius: 20px;
     background-color: white;
 }
+
+.container--grayed_area {
+    display: flex;
+    border-radius: 1vh;
+    height: 8vh;
+    width: 25vw;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+}
+
+.container--grayed_area-music_icon {
+    height: 4vh;
+    width: 4vw;
+    margin: 0 2vw 0 2vw;
+}
