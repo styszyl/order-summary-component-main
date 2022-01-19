@@ -20,37 +20,49 @@ body {
 }
 
 h1 {
-    margin: 30px auto;
+    margin:10% auto;
     font-size: 25px;
+    max-width: 100%;
+
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0 15% 20px 15%;
     text-align: center;
+    color:hsl(224, 23%, 55%);
 }
 
 .container {
     margin-top:15vh ;
     display: flex;
     flex-direction: column;
-    width: 33vw;
+    width: 25vw;
     height: 60vh;
+    min-width: 200px;
     border-radius: 20px;
     background-color: white;
+    word-wrap: break-word;
 }
 
 .container--grayed_area {
     display: flex;
     border-radius: 1vh;
-    height: 8vh;
-    width: 25vw;
+    height: 15%;
+    width: 80%;
+    max-width: 100%;
     background-color: hsl(225, 100%, 98%);
     align-items: center;
 }
 
 .container--grayed_area-music_icon {
-    height: 4vh;
-    width: 4vw;
-    margin: 0 2vw 0 2vw;
+    max-height: 45px;
+    max-width: 45px;
+    height: 100%;
+    width: 100%;
+    margin: 0 10% 0 10%;
+}
+
+.container--grayed_area-link {
+    ;
 }
