@@ -11,7 +11,8 @@ img {
 }
 
 body {
-    background-position: center;
+    background-attachment: fixed;
+    background-position-y: -300px;
     background-image: url(images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +38,7 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 25vw;
-    height: 60vh;
+    height: 65vh;
     min-width: 450px;
     min-height: 500px;
     border-radius: 20px;
@@ -74,7 +75,7 @@ h2 {
 
 .container--grayed_area-link {
     position: absolute;
-    margin: 30px 240px;
+    margin: 30px 270px;
 }
 
 .container--grayed_area-link:hover {
@@ -85,7 +86,7 @@ h2 {
     display: flex;
     align-items: center;;
     justify-content: center;
-    margin: 20px auto;
+    margin: 20px auto 25px;
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
     height: 8%;
