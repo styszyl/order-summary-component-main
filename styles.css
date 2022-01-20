@@ -39,8 +39,8 @@ h2 {
     flex-direction: column;
     width: 25vw;
     height: 65vh;
-    min-width: 450px;
-    min-height: 500px;
+    min-width: 430px;
+    min-height: 600px;
     border-radius: 20px;
     background-color: white;
 }
