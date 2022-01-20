@@ -34,15 +34,16 @@ h2 {
 }
 
 .container {
-    margin-top:17vh ;
+    margin-top: 17vh;
     display: flex;
     flex-direction: column;
-    width: 25vw;
-    height: 65vh;
+    width: 25em;
+    height: auto;
     min-width: 430px;
-    min-height: 600px;
+    min-height: 0px;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 0 30px 15px hsla(239, 80%, 80%, 0.363);
 }
 
 .container--grayed_area {
@@ -89,12 +90,12 @@ h2 {
     margin: 20px auto 25px;
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
-    height: 8%;
+    height: 40px;
     width: 80%;
     max-width: 100%;
     color: white;
     font-size:15px;
-    box-shadow: 2px 15px 5px hsla(245, 75%, 52%, 0.103);
+    box-shadow: 2px 30px 10px hsla(245, 75%, 52%, 0.103);
     border: none;
 
 }
@@ -103,6 +104,7 @@ h2 {
     border: none;
     background-color: transparent;
     color:hsl(224, 23%, 55%);
+    margin-bottom: 40px;;
 }
 
 .container--button_proceed:hover {
