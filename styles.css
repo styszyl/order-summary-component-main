@@ -11,10 +11,10 @@ img {
 }
 
 body {
+    background-position: center;
     background-image: url(images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1px;
     background-color: hsl(225, 100%, 94%);
 }
 
@@ -33,15 +33,15 @@ h2 {
 }
 
 .container {
-    margin-top:15vh ;
+    margin-top:17vh ;
     display: flex;
     flex-direction: column;
     width: 25vw;
     height: 60vh;
-    min-width: 400px;
+    min-width: 450px;
+    min-height: 500px;
     border-radius: 20px;
     background-color: white;
-    word-wrap: break-word;
 }
 
 .container--grayed_area {
@@ -51,7 +51,6 @@ h2 {
     width: 80%;
     max-width: 100%;
     background-color: hsl(225, 100%, 98%);
-    align-items: center;
 }
 
 .container--grayed_area-music_icon {
@@ -59,13 +58,29 @@ h2 {
     max-width: 45px;
     height: 100%;
     width: 100%;
-    margin: 0 10% 0 10%;
+    margin: 20px;
+}
+.container--grayed_area-price {
+    position: absolute;
+    color:hsl(224, 23%, 55%);
+    margin:45px 0px 0px 90px;
+    font-size:15px;
+}
+
+.container--grayed_area-plan {
+    position: absolute;
+    margin: 16px 0 0 90px;
 }
 
 .container--grayed_area-link {
-    padding-left: 25px;
+    position: absolute;
+    margin: 30px 240px;
 }
 
+.container--grayed_area-link:hover {
+    color: hsl(239, 80%, 80%);
+    text-decoration: none;
+}
 .container--button_proceed {
     display: flex;
     align-items: center;;
@@ -85,6 +100,14 @@ h2 {
 
 .container--button_cancel {
     border: none;
-    background-color: white;
-    
+    background-color: transparent;
+    color:hsl(224, 23%, 55%);
+}
+
+.container--button_proceed:hover {
+    background-color: hsl(239, 80%, 80%);
+}
+
+.container--button_cancel:hover {
+    color: black;
 }
