@@ -23,7 +23,6 @@ h1 {
     margin:30px auto 15px auto;
     font-size: 25px;
     max-width: 100%;
-
 }
 
 h2 {
@@ -34,13 +33,17 @@ h2 {
 }
 
 .container {
-    margin-top: 17vh;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     width: 25em;
-    height: auto;
+    height: 76vh;
     min-width: 430px;
-    min-height: 0px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 30px 15px hsla(239, 80%, 80%, 0.363);
@@ -85,7 +88,7 @@ h2 {
 }
 .container--button_proceed {
     display: flex;
-    align-items: center;;
+    align-items: center;
     justify-content: center;
     margin: 20px auto 25px;
     background-color: hsl(245, 75%, 52%);
@@ -94,17 +97,17 @@ h2 {
     width: 80%;
     max-width: 100%;
     color: white;
-    font-size:15px;
+    font-size: 15px;
     box-shadow: 2px 30px 10px hsla(245, 75%, 52%, 0.103);
     border: none;
 
 }
 
 .container--button_cancel {
+    padding-top: 15px;
     border: none;
     background-color: transparent;
     color:hsl(224, 23%, 55%);
-    margin-bottom: 40px;;
 }
 
 .container--button_proceed:hover {
@@ -114,3 +117,8 @@ h2 {
 .container--button_cancel:hover {
     color: black;
 }
+
+.attribution {
+    position: relative;
+    top: 55px;
+ }
