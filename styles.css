@@ -11,11 +11,9 @@ img {
 }
 
 body {
-    background-attachment: fixed;
-    background-position-y: -300px;
-    background-image: url(images/pattern-background-mobile.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-color: hsl(225, 100%, 94%);
 }
 
@@ -102,7 +100,6 @@ h2 {
     font-size: 15px;
     box-shadow: 2px 30px 10px hsla(245, 75%, 52%, 0.103);
     border: none;
-
 }
 
 .container--button_cancel {
