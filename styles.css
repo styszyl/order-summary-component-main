@@ -100,6 +100,7 @@ h2 {
     font-size: 15px;
     box-shadow: 2px 30px 10px hsla(245, 75%, 52%, 0.103);
     border: none;
+    cursor: pointer;
 }
 
 .container--button_cancel {
@@ -107,6 +108,7 @@ h2 {
     border: none;
     background-color: transparent;
     color:hsl(224, 23%, 55%);
+    cursor: pointer;
 }
 
 .container--button_proceed:hover {
